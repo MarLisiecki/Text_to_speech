@@ -12,7 +12,7 @@ finally:
 
 from const import const as c
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="C:\\Users\\Marcin\Documents\\nienazwany\\helpers\\text-to-speech-310109-656e8a451450.json"
+#os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="PATH TO YOUR JSON FILE"
 def set_settings(text_to_convert):
     client = texttospeech.TextToSpeechClient()
     synthesis_input = texttospeech.SynthesisInput(text=text_to_convert)
